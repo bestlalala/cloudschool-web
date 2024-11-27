@@ -1,0 +1,57 @@
+/* 전체 페이지 스타일 */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f7fc;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: #4a90e2;
+  margin-top: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px auto;
+  width: 80%;
+  max-width: 600px;
+}
+
+li {
+  background-color: #fff;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li:hover {
+  background-color: #f1f1f1;
+}
+
+li span {
+  font-weight: bold;
+}
+
+.loading, .error {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #888;
+  margin-top: 50px;
+}
+
+.loading {
+  color: #4a90e2;
+}
+
+.error {
+  color: #e74c3c;
+}
