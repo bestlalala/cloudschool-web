@@ -17,7 +17,7 @@ const App: React.FC = () => {
     const fetchData = async () => {
       try {
         // 서버 API 호출
-        const response = await fetch('http://localhost:8080/api/user'); // 서버 주소를 실제 주소로 변경
+        const response = await fetch('http://cloudschoolelb-552622718.ap-northeast-2.elb.amazonaws.com'); // 서버 주소를 실제 주소로 변경
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }
